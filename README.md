@@ -23,27 +23,26 @@ Analyze JSON log files and automatically generate alerts and summary charts.
 git clone https://github.com/partz2510/cloud-log-analyzer.git
 cd cloud-log-analyzer
 
+2. **Create a virtual environment and activate it**
 python -m venv venv
 venv\Scripts\activate
 
+3. **Install dependencies**
 pip install -r Logs/Requirements.txt
 
+
+## Usage
 python Cloud_log_analyzer.py --logs Logs/sample_log.json --out output
 
+## Features
+**Detect failed loging attempts automatically**
+**Highlight high latency requests**
+**Generate CSV summaries of alerts**
+**Create visual charts for quick analysis**
 
----
+## Sample Output
+alerts_summary.csv
+summary_bar.png
 
-### ✅ **Next steps**
-
-1. Move your `README.md` to the **root folder** (not inside `Logs/`).  
-2. Open GitHub Desktop → **Changes** tab → you’ll see `README.md`.  
-3. Commit it with a message like:  
-
-4. Click **Push origin** → check your GitHub repo in the browser → the README should display perfectly with your sample chart.  
-
----
-
-If you want, I can also show you a **trick to display your project outputs directly in GitHub**, so the PNG charts render **nicely in the README without extra steps**.  
-
-Do you want me to do that?
-
+## License
+**This project is licensed under the MIT License**
