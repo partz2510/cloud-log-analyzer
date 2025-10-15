@@ -19,10 +19,10 @@ This project simulates a lightweight **log analysis and monitoring tool** — id
 ## Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/partz2510/cloud-log-analyzer.git
-   cd cloud-log-analyser
-   ```
+```bash
+git clone https://github.com/partz2510/cloud-log-analyzer.git
+cd cloud-log-analyser
+```
 
 
 2. **Create a virtual environment and activate it**
@@ -33,7 +33,7 @@ venv\Scripts\activate
 
 
 3. **Install dependencies**
- ```bash
+```bash
 pip install -r Logs/Requirements.txt
 ```
 
@@ -47,13 +47,13 @@ python Cloud_log_analyzer.py --logs Logs/sample_log.json --out output
 
 This will:
 
-Parse the JSON log file
+1.Parse the JSON log file
 
-Detect failed logins and high-latency events
+2.Detect failed logins and high-latency events
 
-Export alerts to **output/alerts_summary.csv**
+3.Export alerts to output/alerts_summary.csv
 
-Generate a visualization chart in **output/summary_bar.png**
+4.Generate a visualization chart in output/summary_bar.png
 
 
 
@@ -74,8 +74,10 @@ Generate a visualization chart in **output/summary_bar.png**
 ## Sample Output
 
 After running the script, you’ll find the following files in your output folder:	
-Detailed summary of detected alerts **alerts_summary.csv**
-Visualization of log categories and event counts **summary_bar.png**	
+
+1.Detailed summary of detected alerts **alerts_summary.csv**
+
+2.Visualization of log categories and event counts **summary_bar.png**	
 
 
 
