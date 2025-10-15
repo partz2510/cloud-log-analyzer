@@ -22,21 +22,27 @@ This project simulates a lightweight **log analysis and monitoring tool** — id
    ```bash
    git clone https://github.com/partz2510/cloud-log-analyzer.git
    cd cloud-log-analyser
+   ```
+
 
 2. **Create a virtual environment and activate it**
  ```bash
 python -m venv venv
 venv\Scripts\activate
+```
+
 
 3. **Install dependencies**
  ```bash
 pip install -r Logs/Requirements.txt
+```
 
 ## Usage
+
 **To analyze your log files and generate summary reports**
  ```bash
 python Cloud_log_analyzer.py --logs Logs/sample_log.json --out output
-
+```
 
 
 This will:
@@ -52,6 +58,7 @@ Generate a visualization chart in **output/summary_bar.png**
 
 
 ## Features
+
 🚨 Detect failed login attempts automatically
 
 ⚡ Highlight high-latency requests
@@ -65,6 +72,7 @@ Generate a visualization chart in **output/summary_bar.png**
 
 
 ## Sample Output
+
 After running the script, you’ll find the following files in your output folder:	
 Detailed summary of detected alerts **alerts_summary.csv**
 Visualization of log categories and event counts **summary_bar.png**	
@@ -73,6 +81,7 @@ Visualization of log categories and event counts **summary_bar.png**
 
 ## License
 This project is licensed under the MIT License.
+
 
 💡 Author
 Parthiban Ganesan
