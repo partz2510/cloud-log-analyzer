@@ -1,7 +1,7 @@
 # Cloud Log Analyzer
 
 Analyze JSON log files and automatically generate alerts and summary charts.  
-This project simulates a lightweight **log analysis and monitoring tool** — ideal for cloud and SOC (Security Operations Center) environments. It detects failed logins, high latency requests and generates visual summaries.
+This project simulates a lightweight log analysis and monitoring tool — ideal for cloud and SOC (Security Operations Center) environments. It detects failed logins, high latency requests and generates visual summaries.
 
 ![Summary Chart](output/summary_bar.png)
 
@@ -75,9 +75,9 @@ This will:
 
 After running the script, you’ll find the following files in your output folder:	
 
-1.Detailed summary of detected alerts **alerts_summary.csv**
+1.Detailed summary of detected alerts , 'Alerts_Summary.csv'
 
-2.Visualization of log categories and event counts **summary_bar.png**	
+2.Visualization of log categories and event counts , 'Summary_Bar.png'
 
 
 
@@ -87,5 +87,7 @@ This project is licensed under the MIT License.
 
 💡 Author
 Parthiban Ganesan
+
 GitHub: partz2510
+
 Project: Cloud Log Analyzer
