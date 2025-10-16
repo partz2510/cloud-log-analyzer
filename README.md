@@ -105,15 +105,21 @@ To test locally:
 1. Import the XML under Splunk > Dashboards.
 2. Load logs into index `cloud_logs`.
 3. Explore trends and error distribution in real time.
-### 🧠 Advanced Visualization: Anomaly Detection
 
-This dashboard includes an **anomaly detection chart** that automatically identifies unusual spikes in error rates using Splunk's `anomalydetection` command.
 
-**Key benefits:**
-- Quickly highlights performance degradation or outages
-- Useful for security or reliability monitoring
-- Example SPL:
-  ```spl
-  index=cloud_logs sourcetype=app_logs
-  | timechart span=1h count as total_errors
-  | anomalydetection total_errors
+### 🧠 Advanced Visualization
+This project ingests cloud logs, analyzes errors, and visualizes them using Splunk dashboards.
+
+## Error Count Line Chart
+![Error Count Line Chart](assets/Error Count Line Chart.png)
+
+## Top Errors
+![Top Errors](assets/Top Errors.png)
+
+## Anomaly Detection
+### RegionA
+![RegionA Anomaly](assets/Anomaly Detection Region A.png)
+### RegionB
+![RegionB Anomaly](assets/Anomaly Detection Region B.png)
+### RegionC
+![RegionC Anomaly](assets/Anomaly Detection Region C.png)
