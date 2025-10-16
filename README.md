@@ -118,7 +118,7 @@ This project ingests cloud logs, analyzes errors, and visualizes them using Splu
 
 ## Anomaly Detection
 ### RegionA
-![RegionA Anomaly](assets\Anomaly Detection Region A.png)
+![RegionA Anomaly](https://github.com/partz2510/cloud-log-analyzer/blob/main/assets/Anomaly%20Detection%20Region%20A.png?raw=true)
 ### RegionB
 ![RegionB Anomaly](assets\Anomaly Detection Region B.png)
 ### RegionC
