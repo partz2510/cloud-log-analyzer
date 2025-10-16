@@ -1,0 +1,2 @@
+index=cloud_logs sourcetype=app_logs
+| timechart count by severity

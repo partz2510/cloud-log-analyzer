@@ -1,0 +1,23 @@
+<dashboard>
+  <label>Cloud Log Analyzer Overview</label>
+  <row>
+    <panel>
+      <chart>
+        <title>Error Count by Region</title>
+        <search>
+          <query>index=cloud_logs sourcetype=app_logs | stats count by region</query>
+        </search>
+        <option name="charting.chart">column</option>
+      </chart>
+    </panel>
+    <panel>
+      <chart>
+        <title>Top 10 Error Messages</title>
+        <search>
+          <query>index=cloud_logs sourcetype=app_logs | top limit=10 error_message</query>
+        </search>
+        <option name="charting.chart">pie</option>
+      </chart>
+    </panel>
+  </row>
+</dashboard>
