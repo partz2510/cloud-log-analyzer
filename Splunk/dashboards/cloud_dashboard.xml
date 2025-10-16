@@ -21,3 +21,19 @@
     </panel>
   </row>
 </dashboard>
+    <panel>
+      <chart>
+        <title>Anomaly Detection: Error Spikes</title>
+        <search>
+          <query>
+            index=cloud_logs sourcetype=app_logs
+            | timechart span=1h count as total_errors
+            | anomalydetection total_errors
+          </query>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.axisTitleX.text">Time</option>
+        <option name="charting.axisTitleY.text">Error Count</option>
+        <option name="charting.legend.placement">bottom</option>
+      </chart>
+    </panel>
