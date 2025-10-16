@@ -111,15 +111,15 @@ To test locally:
 This project ingests cloud logs, analyzes errors, and visualizes them using Splunk dashboards.
 
 ## Error Count Line Chart
-![Error Count Line Chart](assets\Error Count Line Chart.png)
+![Error Count Line Chart](https://github.com/partz2510/cloud-log-analyzer/blob/main/assets/Error%20Count%20Line%20Chart.png?raw=true)
 
 ## Top Errors
-![Top Errors](assets\Top Errors.png)
+![Top Errors](https://github.com/partz2510/cloud-log-analyzer/blob/main/assets/Top%20Errors.png?raw=true)
 
 ## Anomaly Detection
 ### RegionA
 ![RegionA Anomaly](https://github.com/partz2510/cloud-log-analyzer/blob/main/assets/Anomaly%20Detection%20Region%20A.png?raw=true)
 ### RegionB
-![RegionB Anomaly](assets\Anomaly Detection Region B.png)
+![RegionB Anomaly](https://github.com/partz2510/cloud-log-analyzer/blob/main/assets/Anomaly%20Detection%20Region%20B.png?raw=true)
 ### RegionC
-![RegionC Anomaly](assets\Anomaly Detection Region C.png)
+![RegionC Anomaly](https://github.com/partz2510/cloud-log-analyzer/blob/main/assets/Anomaly%20Detection%20Region%20C.png?raw=true)
