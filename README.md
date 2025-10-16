@@ -91,3 +91,17 @@ Parthiban Ganesan
 GitHub: partz2510
 
 Project: Cloud Log Analyzer
+
+## 🔍 Splunk Integration
+
+This project now includes a Splunk dashboard and sample saved searches for visualizing cloud log analytics data.
+
+**Folder structure**
+- `splunk/dashboards/` – XML dashboards
+- `splunk/savedsearches/` – prebuilt searches (SPL)
+- `splunk/data_inputs/` – log source setup examples
+
+To test locally:
+1. Import the XML under Splunk > Dashboards.
+2. Load logs into index `cloud_logs`.
+3. Explore trends and error distribution in real time.
